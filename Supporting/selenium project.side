@@ -1,0 +1,133 @@
+{
+  "id": "b1945551-6665-4222-8594-213a3f2eda02",
+  "version": "2.0",
+  "name": "selenium project",
+  "url": "https://sagarvedbairwa.github.io",
+  "tests": [{
+    "id": "fef7fcfa-25fa-45bc-b199-3bf07430fb52",
+    "name": "Selenium Testing",
+    "commands": [{
+      "id": "b193ae24-c90f-4942-b269-61f176a03965",
+      "comment": "",
+      "command": "open",
+      "target": "/CS303/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7adae02b-6687-42ac-ab44-422361772edd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1016",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dc1695e-a50c-40f7-a8b3-17cc360dac45",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputFeet",
+      "targets": [
+        ["id=inputFeet", "id"],
+        ["css=p:nth-child(1) > #inputFeet", "css:finder"],
+        ["xpath=//input[@id='inputFeet']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d397da18-c3f9-4a64-baba-36acb1ea604f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputFeet",
+      "targets": [
+        ["id=inputFeet", "id"],
+        ["css=p:nth-child(1) > #inputFeet", "css:finder"],
+        ["xpath=//input[@id='inputFeet']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "11"
+    }, {
+      "id": "a03bc918-a8e6-4477-9950-f6789a43a4b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3) > #inputFeet",
+      "targets": [
+        ["css=p:nth-child(3) > #inputFeet", "css:finder"],
+        ["xpath=(//input[@id='inputFeet'])[2]", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b99b9fd-2407-49c2-80cd-483aba4cd467",
+      "comment": "",
+      "command": "type",
+      "target": "css=p:nth-child(3) > #inputFeet",
+      "targets": [
+        ["css=p:nth-child(3) > #inputFeet", "css:finder"],
+        ["xpath=(//input[@id='inputFeet'])[2]", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "ad2d3c7e-4991-4dd7-bfd3-7d13c200e6b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > #inputFeet",
+      "targets": [
+        ["css=p:nth-child(5) > #inputFeet", "css:finder"],
+        ["xpath=(//input[@id='inputFeet'])[3]", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8aeb997-0843-4023-8a63-4097f7c3356a",
+      "comment": "",
+      "command": "type",
+      "target": "css=p:nth-child(5) > #inputFeet",
+      "targets": [
+        ["css=p:nth-child(5) > #inputFeet", "css:finder"],
+        ["xpath=(//input[@id='inputFeet'])[3]", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "8fff9bd7-e5f6-4b46-a8dc-65a698833683",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=docs",
+      "targets": [
+        ["linkText=docs", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'docs')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'docs.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'docs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7817fe3e-1e8e-4305-bb6b-1ad02ad5d70f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ca9ccdc9-5021-4db4-9588-a293d05b76af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fef7fcfa-25fa-45bc-b199-3bf07430fb52"]
+  }],
+  "urls": ["https://sagarvedbairwa.github.io/"],
+  "plugins": []
+}
