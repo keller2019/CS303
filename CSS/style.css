@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,400italic,500,500italic,900);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiMVMUYnqWeVUrlig4e_Q5uPSRiy9B6TnQcgd_60PGSCVs75C9VEkvq5lESovLbTwk_6PG4KaeOeGox2Y35jYu-9E7vH-_cjxJ5qWlnsFcy7L22qERahpx0zyEUjerjdDwn6VD-dVe4YtRs6D2uXRU7h3pF26Rm8cYjXWIHGwLyn1GO9Ec29lQuV361NA=s1920);
+    background-positon: center;
+    background-repeat: center;
+    background-size: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.wrapper h1 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 6em;
+    font-weight: 300;
+}
+
+.wrapper p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.button {
+    width: 190px;
+    height: 35px;
+    background: transparant;
+    border-radius: 5px;
+    border: solid 3px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    line-height: 35px;
+    color: #FFF;
+}
